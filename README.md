@@ -84,22 +84,5 @@ PS: In Linux, it is necessary to add -lm to the end of gcc compiler line like gi
 	gcc lex.yy.c y.tab.c -o calculator -lm
 
 
-Test Case		                    Expected Output				                    Category
+Test Cases PDF Drive Link : https://drive.google.com/file/d/1J_rKJpMc0ByZa3r9aj-jss61SoD9ivgc/view?usp=sharing
 
-3 + 5			                      8.0					                              Basic Arithmetic
-10 - 7			                    3.0					                              Basic Arithmetic
-4 * 6			                      24.0					                            Basic Arithmetic
-8 / 2			                      4.0 					                            Basic Arithmetic
-(1 + 2) * 4		                  12.0					                            Parentheses Handling
-3 + (5 * 2)		                  13.0					                            Parentheses Handling
-(8 - 3) / (2 + 1)	              1.6					                              Parentheses Handling
-10 / 0			                    Error (Division by zero) 		              Division by Zero Handling
-(5 + 5) / (10 - 10)	            Error (Division by zero)		              Division by Zero Handling
-(3 + 5) * (2 - 1) / 4	          2				                                	Complex Expressions
-((10 + 2) / 3) * 4	            16					                              Complex Expressions
-5 + * 3			                    Error (Invalid syntax)			              Invalid Input Handling
-7 /			                        Error (Incomplete expression) 	          Invalid Input Handling
-10 + (5 * 2		                  Error (Missing closing parenthesis)     	Invalid Input Handling
-2.5 + 3.5		                    6.0					                              Floating-Point (Bonus)
-4.2 * 2			                    8.4					                              Floating-Point (Bonus)
-2 ^ 3 or 2 ** 3		              8				                                	Exponentiation (Bonus)
