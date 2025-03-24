@@ -19,7 +19,7 @@ int yyerror(const char *errormsg);
 ")"                { return RPAREN; }
 \n                 { return NEWLINE; } // Handle end of input
 \r                 ;
-[ \t]+             ;  // Ignore spaces and newlines
+[ \t]+             ;  // Ignore spaces and tabs
 .                  { 
                      fprintf(stderr, "Unknown character: %s\n", yytext); 
                      yyerror("Lexical error");
